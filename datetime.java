@@ -4,8 +4,7 @@ import javax.servlet.http.*;
 import java.util.Calendar;
 
 public class daytime extends HttpServlet {
-    public void doGet(HttpServletRequest request
-    ,HttpServletResponse response)
+    public void doGet(HttpServletRequest request,HttpServletResponse response)
 
     throws IOException, ServletException{
         response.setContentType("text/html");
@@ -17,14 +16,14 @@ public class daytime extends HttpServlet {
         cal.get(Calendar.DATE) + " " + cal.get(Calendar.HOUR_OF_DAY) + ":" + cal.get(Calendar.MINUTE));
         out.println("</div>\n</body>\n</html>");
     }
-} import java.io.*;
+}
+import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import java.util.Calendar;
 
 public class daytime extends HttpServlet {
-    public void doGet(HttpServletRequest request
-    ,HttpServletResponse response)
+    public void doGet(HttpServletRequest request,HttpServletResponse response)
 
     throws IOException, ServletException{
         response.setContentType("text/html");
