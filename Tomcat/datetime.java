@@ -17,6 +17,7 @@ public class daytime extends HttpServlet {
         out.println("</div>\n</body>\n</html>");
     }
 }
+
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
